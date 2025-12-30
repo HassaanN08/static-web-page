@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+}
+
+body h1, h2, h3, h4, h5, h6, span  {
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+}
+
+.dark {
+    background-color: #1F2937;
+}
+
+.white {
+    background-color: white;
+}
+
+.off-white {
+    background-color: #E5E7EB;
+}
+
+.main-con-inner {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.hero .main-con-inner {
+    padding: 20px 0px 80px 0px;
+    gap: 80px;
+}
+
+.hero .align-center {
+    gap: 60px;
+}
+
+.hero img {
+    width: 50%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.hero {
+    color: #f9faf8;
+}
+
+.hero h1 {
+    margin: 0;
+}
+
+.hero .header-links,
+.hero a {
+    color: white;
+    gap: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero span {
+    font-size: 28px;
+}
+
+.hero p {
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 35px;
+    align-self: flex-start;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.button.white-border {
+    border: solid 2px white;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.square-box {
+    aspect-ratio: 1;
+    border: solid 2px #3882F6;
+    border-radius: 10px;
+}
+
+.section-2 .row {
+    gap: 30px;
+}
+
+.section-2 h2 {
+    font-size: 36px;
+}
+
+.section-3 h1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+.section-3 p,
+.section-4 h3 {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0;
+}
+
+.section-4 .call-to-action {
+    background-color: #3882F6;
+    padding: 40px 80px;
+    border-radius: 15px;
+    color: #f9faf8;
+}
+
+.section-4 .button {
+    align-self: center;
+}
+
+.section-4 h3 {
+    align-self: flex-start;
+}
+
+.section-4 p {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+    color: #e5e7eb;
+}
